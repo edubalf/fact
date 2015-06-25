@@ -1,5 +1,4 @@
-﻿
-using Fact.Faker.Utils;
+﻿using Fact.Faker.Utils;
 
 namespace Fact.Faker.BR
 {
@@ -37,7 +36,6 @@ namespace Fact.Faker.BR
                     ZipCode);
             }
         }
-
 
         private static string[] STATES_ABBR = { "AC", "AL", "AP", "AM", "BA",
             "CE", "DF", "ES", "GO", "MA", "MT", "MS", "MG", "PR", "PB", "PA",

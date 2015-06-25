@@ -1,4 +1,5 @@
 ﻿using System.Linq;
+using System.Text;
 
 namespace Fact.Faker.Utils
 {
@@ -6,14 +7,14 @@ namespace Fact.Faker.Utils
     {
         public static string Numerify(this string value)
         {
-            var number = string.Empty;
+            var number = new StringBuilder();
+
             foreach (var item in value.ToList())
             {
-                number += item.ToString().Replace("#", 10.Randomize().ToString());
-
+                number.Append(item.ToString().Replace("#", 10.Randomize().ToString()));
             }
 
-            return number;
+            return number.ToString();
         }
     }
 }

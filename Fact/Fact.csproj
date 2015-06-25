@@ -42,8 +42,12 @@
     <Compile Include="Factory\Builder.cs" />
     <Compile Include="Factory\BuilderFactItem.cs" />
     <Compile Include="Faker\BR\AddressBR.cs" />
+    <Compile Include="Faker\BR\ColorBR.cs" />
     <Compile Include="Faker\BR\DateBR.cs" />
+    <Compile Include="Faker\BR\PriceBR.cs" />
     <Compile Include="Faker\DateAndTime.cs" />
+    <Compile Include="Faker\Price.cs" />
+    <Compile Include="Faker\US\ColorUS.cs" />
     <Compile Include="Faker\US\LocaleUS.cs" />
     <Compile Include="Faker\Utils\FakerNumerify.cs" />
     <Compile Include="Faker\Company.cs" />
