@@ -1,6 +1,12 @@
 # fact
 Is a great tool to improve your stubs tests. Inspired in FFaker, a great Ruby test feature, Fact bring the same experiênce to C# developers
 
+## Install
+To install fact, run the following command in the Package Manager Console
+```csharp
+PM> Install-Package fact
+```
+
 ## Fakers
 discover all Fakers in Fact.Faker namespace
 
