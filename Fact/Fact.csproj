@@ -65,7 +65,7 @@
     <Compile Include="Specs\Speclog.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Nuget\Fact.1.0.14.nupkg" />
+    <None Include="Nuget\Fact.1.0.16.nupkg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
